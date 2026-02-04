@@ -4,6 +4,7 @@ exclude: |
   ^shopinvader_base_url/|
   ^shopinvader_multi_category/|
   ^shopinvader_product_attribute_set/|
+  ^shopinvader_product/|
   ^shopinvader_product_brand/|
   ^shopinvader_product_brand_tag/|
   ^shopinvader_product_description/|
