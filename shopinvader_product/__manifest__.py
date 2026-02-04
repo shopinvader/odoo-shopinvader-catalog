@@ -3,8 +3,8 @@
 
 {
     "name": "Shopinvader Product",
-    "summary": """Adds shopinvader product fields and schemas""",
-    "version": "16.0.1.0.5",
+    "summary": "Adds shopinvader product fields and schemas",
+    "version": "18.0.1.0.0",
     "license": "AGPL-3",
     "author": "ACSONE SA/NV",
     "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
@@ -14,15 +14,15 @@
         "pydantic",
         "extendable",
     ],
-    "data": ["views/product_category.xml", "views/product_template.xml"],
+    "data": [
+        "views/product_category.xml",
+        "views/product_template.xml",
+    ],
     "demo": [
         "demo/product_category.xml",
         "demo/product_attribute_value.xml",
         "demo/product_product.xml",
     ],
-    "external_dependencies": {
-        "python": ["extendable_pydantic>=1.2.0", "pydantic>=2.0.0", "unidecode"]
-    },
-    "installable": False,
-    "development_status": "Alpha",
+    "external_dependencies": {"python": ["unidecode"]},
+    "installable": True,
 }
