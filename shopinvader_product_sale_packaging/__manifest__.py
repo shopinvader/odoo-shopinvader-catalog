@@ -7,7 +7,7 @@
     "Summary": """
         Sell products by packaging.
     """,
-    "version": "16.0.1.0.2",
+    "version": "18.0.1.0.0",
     "license": "AGPL-3",
     "author": "Camptocamp SA",
     "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
@@ -22,5 +22,5 @@
         "views/product_packaging.xml",
         "views/product_packaging_level.xml",
     ],
-    "installable": False,
+    "installable": True,
 }
