@@ -13,6 +13,7 @@
         "product",
         "pydantic",
         "extendable",
+        "product_category_name_translatable",
     ],
     "data": [
         "views/product_category.xml",
@@ -23,6 +24,8 @@
         "demo/product_attribute_value.xml",
         "demo/product_product.xml",
     ],
-    "external_dependencies": {"python": ["unidecode"]},
+    "external_dependencies": {
+        "python": ["extendable_pydantic>=1.2.0", "pydantic>=2.0.0", "unidecode"]
+    },
     "installable": True,
 }

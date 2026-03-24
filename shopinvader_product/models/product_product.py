@@ -47,7 +47,7 @@ class ProductProduct(models.Model):
         short_name = ", ".join(attributes.mapped("name"))
         full_name = self.display_name
         if short_name:
-            full_name += " (%s)" % short_name
+            full_name += f" ({short_name})"
         return full_name, short_name
 
     def _compute_names(self):
