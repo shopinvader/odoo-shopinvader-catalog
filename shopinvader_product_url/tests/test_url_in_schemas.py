@@ -69,8 +69,8 @@ class TestUrlInSchemas(TransactionCase, ExtendableMixin):
             "test-parent-category/test-child-category/test-child-child-category",
         )
         self.assertEqual(category.redirect_url_key, [])
-        # if we update the category name, the url_key should be updated whatever the level
-        # and a redirect_url_key should be created
+        # if we update the category name, the url_key should be updated
+        # whatever the level and a redirect_url_key should be created
         self.parent_category.name = "parent"
         category = ProductCategory.from_product_category(self.child_child_category)
         self.assertEqual(

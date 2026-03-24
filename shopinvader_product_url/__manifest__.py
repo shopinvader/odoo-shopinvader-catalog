@@ -16,7 +16,5 @@
         "shopinvader_base_url",
         "shopinvader_product",
     ],
-    "data": [],
-    "demo": [],
     "installable": True,
 }
