@@ -6,7 +6,7 @@
 from odoo.tests import tagged
 
 from odoo.addons.extendable.tests.common import ExtendableMixin
-from odoo.addons.stock_packaging_calculator.tests.common import TestCommon
+from odoo.addons.product_packaging_calculator.tests.common import TestCommon
 
 from ..schemas import ProductPackaging, ProductProduct, SimpleProductPackaging
 from .common import CommonPackagingCase

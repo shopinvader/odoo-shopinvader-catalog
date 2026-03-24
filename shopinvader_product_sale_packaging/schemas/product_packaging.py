@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo.addons.extendable_fastapi import StrictExtendableBaseModel
-from odoo.addons.stock_packaging_calculator.models.product import Packaging
+from odoo.addons.product_packaging_calculator.models.product import Packaging
 
 
 class SimpleProductPackaging(StrictExtendableBaseModel):
@@ -15,8 +15,9 @@ class SimpleProductPackaging(StrictExtendableBaseModel):
 
     @classmethod
     def from_packaging(cls, odoo_product, packaging, packaging_contained_mapping=None):
-        # packaging is a either a namedtuple of type Packaging, or a dict with the same keys
-        # id key can refer to id of model product.packaging or uom.uom, depending on is_unit
+        # packaging is a either a namedtuple of type Packaging, or a dict with
+        # the same keys, id key can refer to id of model product.packaging or
+        # uom.uom, depending on is_unit
         obj = cls.model_construct(
             id=packaging.id,
             name=packaging.name,
