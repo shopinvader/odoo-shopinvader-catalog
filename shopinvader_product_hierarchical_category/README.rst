@@ -1,6 +1,6 @@
-======================================================================
-Shopinvader Product Hierarchical Category for Elasticsearch/OpenSearch
-======================================================================
+=========================================
+Shopinvader Product Hierarchical Category
+=========================================
 
 .. 
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -16,15 +16,15 @@ Shopinvader Product Hierarchical Category for Elasticsearch/OpenSearch
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-shopinvader%2Fodoo--shopinvader-lightgray.png?logo=github
-    :target: https://github.com/shopinvader/odoo-shopinvader/tree/16.0/shopinvader_es_product_categ
-    :alt: shopinvader/odoo-shopinvader
+.. |badge3| image:: https://img.shields.io/badge/github-shopinvader%2Fodoo--shopinvader--catalog-lightgray.png?logo=github
+    :target: https://github.com/shopinvader/odoo-shopinvader-catalog/tree/18.0/shopinvader_product_hierarchical_category
+    :alt: shopinvader/odoo-shopinvader-catalog
 
 |badge1| |badge2| |badge3|
 
-This module restore the *hierarchicalCategories* attribute into the json info
-put in the *ElasticSearch/OpenSearch* index. This attribute is used to build
-facets for the product's categories.
+This module restore the *hierarchicalCategories* attribute into the json
+info put in the *ElasticSearch/OpenSearch* index. This attribute is used
+to build facets for the product's categories.
 
 .. IMPORTANT::
    This is an alpha version, the data model and design can change at any time without warning.
@@ -39,10 +39,10 @@ facets for the product's categories.
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/shopinvader/odoo-shopinvader/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/shopinvader/odoo-shopinvader-catalog/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/shopinvader/odoo-shopinvader/issues/new?body=module:%20shopinvader_es_product_categ%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/shopinvader/odoo-shopinvader-catalog/issues/new?body=module:%20shopinvader_product_hierarchical_category%0Aversion:%2018.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -50,18 +50,18 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * ACSONE SA/NV
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Laurent Mignon <laurent.mignon@acsone.eu>
+- Laurent Mignon <laurent.mignon@acsone.eu>
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
-This module is part of the `shopinvader/odoo-shopinvader <https://github.com/shopinvader/odoo-shopinvader/tree/16.0/shopinvader_es_product_categ>`_ project on GitHub.
+This module is part of the `shopinvader/odoo-shopinvader-catalog <https://github.com/shopinvader/odoo-shopinvader-catalog/tree/18.0/shopinvader_product_hierarchical_category>`_ project on GitHub.
 
 You are welcome to contribute.

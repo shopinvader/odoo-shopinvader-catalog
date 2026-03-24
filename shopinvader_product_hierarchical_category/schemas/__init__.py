@@ -1,2 +1,2 @@
-from .hierarchical_category import HierarchicalCategory
+from .product_hierarchical_category import ProductHierarchicalCategory
 from .product_product import ProductProduct
