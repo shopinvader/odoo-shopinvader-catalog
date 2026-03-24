@@ -24,7 +24,6 @@
     "data": [
         "views/product_brand_view.xml",
     ],
-    "demo": [],
     "external_dependencies": {"python": ["extendable_pydantic>=1.2.0"]},
     "development_status": "Alpha",
 }
