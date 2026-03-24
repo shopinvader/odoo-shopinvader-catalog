@@ -10,7 +10,6 @@
     "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
     "depends": ["product_sale_description", "shopinvader_product"],
     "data": ["views/product_category.xml"],
-    "demo": [],
     "development_status": "Alpha",
     "installable": True,
 }

@@ -4,12 +4,6 @@ exclude: |
   ^shopinvader_base_url/|
   ^shopinvader_product_brand/|
   ^shopinvader_product_brand_tag/|
-  ^shopinvader_product_description/|
-  ^shopinvader_product_hierarchical_category/|
-  ^shopinvader_product_manufactured_for/|
-  ^shopinvader_product_new/|
-  ^shopinvader_product_order/|
-  ^shopinvader_product_price_tax/|
   ^shopinvader_product_sale_packaging/|
   ^shopinvader_product_url/|
   # END NOT INSTALLABLE ADDONS
