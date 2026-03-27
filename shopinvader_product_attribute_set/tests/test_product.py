@@ -23,8 +23,10 @@ class ProductCase(TransactionCase, ExtendableMixin):
         )
         cls.product = cls.env.ref("product.product_product_8")
         attributes = cls.attr_set.attribute_ids.filtered(
-            lambda s: s.name
-            in ["x_linux_compatible", "x_processor", "x_technical_description"]
+            lambda s: (
+                s.name
+                in ["x_linux_compatible", "x_processor", "x_technical_description"]
+            )
         )
         cls.attr_set.attribute_ids = attributes
         cls.group = cls.env["attribute.group"].create(
@@ -39,8 +41,8 @@ class ProductCase(TransactionCase, ExtendableMixin):
             {
                 "nature": "custom",
                 "model_id": self.env.ref("product.model_product_product").id,
-                "field_description": "Attribute %s" % vals["attribute_type"],
-                "name": "x_%s" % vals["attribute_type"],
+                "field_description": f"Attribute {vals['attribute_type']}",
+                "name": f"x_{vals['attribute_type']}",
                 "attribute_group_id": self.group.id,
             }
         )
