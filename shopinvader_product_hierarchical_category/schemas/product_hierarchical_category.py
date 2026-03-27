@@ -7,7 +7,7 @@ from extendable_pydantic.models import StrictExtendableBaseModel
 from odoo.addons.shopinvader_product.schemas import ShortProductCategory
 
 
-class HierarchicalCategory(StrictExtendableBaseModel):
+class ProductHierarchicalCategory(StrictExtendableBaseModel):
     level: int
     value: str
     order: int = 0

@@ -1,1 +1,1 @@
-from . import test_product_product
+from . import test_hierarchical_category_in_schema

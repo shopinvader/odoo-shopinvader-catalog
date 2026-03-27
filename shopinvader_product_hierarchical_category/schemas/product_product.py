@@ -7,12 +7,12 @@ from pydantic import Field
 
 from odoo.addons.shopinvader_product.schemas import ProductProduct as BaseProductProduct
 
-from . import HierarchicalCategory
+from . import ProductHierarchicalCategory
 
 
 class ProductProduct(BaseProductProduct, extends=True):
     hierarchicalCategories: Annotated[
-        list[HierarchicalCategory],
+        list[ProductHierarchicalCategory],
         Field(serialization_alias="hierarchicalCategories"),
     ] = []
 
@@ -21,6 +21,6 @@ class ProductProduct(BaseProductProduct, extends=True):
         obj = super().from_product_product(odoo_rec)
         for shopinvader_category in odoo_rec.shopinvader_categ_ids.sorted("level"):
             obj.hierarchicalCategories.append(
-                HierarchicalCategory.from_product_category(shopinvader_category)
+                ProductHierarchicalCategory.from_product_category(shopinvader_category)
             )
         return obj
