@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [shopinvader_product](shopinvader_product/) | 18.0.1.0.0 |  | Adds shopinvader product fields and schemas
+[shopinvader_product_attribute_set](shopinvader_product_attribute_set/) | 18.0.1.0.0 |  | Expose all PIM' Attribute sets with Shopinvader
 [shopinvader_product_seo](shopinvader_product_seo/) | 18.0.1.0.0 |  | SEO fields for Shopinvader
 
 
@@ -31,7 +32,6 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [shopinvader_base_url](shopinvader_base_url/) | 16.0.1.0.3 (unported) |  | keep history of url for products & categories
 [shopinvader_multi_category](shopinvader_multi_category/) | 16.0.1.0.1 (unported) |  | Shopinvader Many Categories
-[shopinvader_product_attribute_set](shopinvader_product_attribute_set/) | 16.0.1.0.2 (unported) |  | Expose all PIM' Attribute sets with Shopinvader
 [shopinvader_product_brand](shopinvader_product_brand/) | 16.0.1.0.1 (unported) |  | Shopinvader product Brand
 [shopinvader_product_brand_tag](shopinvader_product_brand_tag/) | 16.0.1.0.1 (unported) |  | Index Product Brand Tags in Shopinvader
 [shopinvader_product_description](shopinvader_product_description/) | 16.0.1.0.0 (unported) |  | Description fields for Shopinvader
