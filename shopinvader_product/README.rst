@@ -10,15 +10,15 @@ Shopinvader Product
    !! source digest: sha256:db3fb949d5a9bd777f26ef3af75e354de98f4ad12236c49b32e863f371cbb995
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-.. |badge1| image:: https://img.shields.io/badge/maturity-Alpha-red.png
+.. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
-    :alt: Alpha
+    :alt: Beta
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-shopinvader%2Fodoo--shopinvader-lightgray.png?logo=github
-    :target: https://github.com/shopinvader/odoo-shopinvader/tree/16.0/shopinvader_product
-    :alt: shopinvader/odoo-shopinvader
+.. |badge3| image:: https://img.shields.io/badge/github-shopinvader%2Fodoo--shopinvader--catalog-lightgray.png?logo=github
+    :target: https://github.com/shopinvader/odoo-shopinvader-catalog/tree/18.0/shopinvader_product
+    :alt: shopinvader/odoo-shopinvader-catalog
 
 |badge1| |badge2| |badge3|
 
@@ -28,11 +28,6 @@ Adding revelant fields and pydantic schemas for serialization.
 To serialize product prices, you'll need an extra addon like
 ``shopinvader_search_engine_product_price``
 
-.. IMPORTANT::
-   This is an alpha version, the data model and design can change at any time without warning.
-   Only for development or testing purpose, do not use in production.
-   `More details on development status <https://odoo-community.org/page/development-status>`_
-
 **Table of contents**
 
 .. contents::
@@ -41,10 +36,10 @@ To serialize product prices, you'll need an extra addon like
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/shopinvader/odoo-shopinvader/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/shopinvader/odoo-shopinvader-catalog/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/shopinvader/odoo-shopinvader/issues/new?body=module:%20shopinvader_product%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/shopinvader/odoo-shopinvader-catalog/issues/new?body=module:%20shopinvader_product%0Aversion:%2018.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -52,19 +47,19 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * ACSONE SA/NV
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Laurent Mignon <laurent.mignon@acsone.eu>
-* Quentin Groulard <quentin.groulard@acsone.eu>
+- Laurent Mignon <laurent.mignon@acsone.eu>
+- Quentin Groulard <quentin.groulard@acsone.eu>
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
-This module is part of the `shopinvader/odoo-shopinvader <https://github.com/shopinvader/odoo-shopinvader/tree/16.0/shopinvader_product>`_ project on GitHub.
+This module is part of the `shopinvader/odoo-shopinvader-catalog <https://github.com/shopinvader/odoo-shopinvader-catalog/tree/18.0/shopinvader_product>`_ project on GitHub.
 
 You are welcome to contribute.

@@ -8,7 +8,7 @@
     "required for faceting",
     "version": "16.0.1.0.0",
     "category": "Shopinvader",
-    "website": "https://github.com/shopinvader/odoo-shopinvader",
+    "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
     "author": " ACSONE SA/NV",
     "license": "AGPL-3",
     "application": False,
