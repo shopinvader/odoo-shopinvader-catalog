@@ -8,6 +8,7 @@ exclude: |
   ^shopinvader_product_brand/|
   ^shopinvader_product_brand_tag/|
   ^shopinvader_product_description/|
+  ^shopinvader_product_hierarchical_category/|
   ^shopinvader_product_sale_packaging/|
   ^shopinvader_product_seo/|
   ^shopinvader_product_url/|
