@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (https://www.gnuorg/licenses/agpl.html).
 
 from odoo.addons.extendable.tests.common import ExtendableMixin
-from odoo.addons.stock_packaging_calculator.tests.common import TestCommon
+from odoo.addons.product_packaging_calculator.tests.common import TestCommon
 
 from ..schemas import ProductProduct
 from .common import CommonPackagingCase

@@ -4,10 +4,8 @@
 
 {
     "name": "Shopinvader Product Sale Packaging",
-    "Summary": """
-        Sell products by packaging.
-    """,
-    "version": "16.0.1.0.2",
+    "Summary": "Sell products by packaging.",
+    "version": "18.0.1.0.0",
     "license": "AGPL-3",
     "author": "Camptocamp SA",
     "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
@@ -16,11 +14,11 @@
         "shopinvader_product",
         "sale_stock",
         "sell_only_by_packaging",
-        "stock_packaging_calculator_packaging_level",
+        "product_packaging_calculator_packaging_level",
     ],
     "data": [
         "views/product_packaging.xml",
         "views/product_packaging_level.xml",
     ],
-    "installable": False,
+    "installable": True,
 }
