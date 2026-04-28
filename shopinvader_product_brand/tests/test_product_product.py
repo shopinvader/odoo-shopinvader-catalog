@@ -14,10 +14,11 @@ class TestProductSchema(TransactionCase, ExtendableMixin):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+        cls.env = cls.env(context=dict(cls.env.context, tracking_disable=True))
         cls.init_extendable_registry()
         cls.addClassCleanup(cls.reset_extendable_registry)
 
-        cls.lang_id = cls.env["res.lang"]._lang_get_id(cls.env.user.lang)
+        cls.lang_id = cls.env["res.lang"]._lang_get(cls.env.user.lang).id
         cls.brand = cls.env["product.brand"].create(
             {
                 "name": "brand",
