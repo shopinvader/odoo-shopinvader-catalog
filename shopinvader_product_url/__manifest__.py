@@ -13,10 +13,8 @@
     "author": " Akretion, ACSONE SA/NV",
     "license": "AGPL-3",
     "depends": [
-        "shopinvader_base_url",
+        "base_url",
         "shopinvader_product",
     ],
-    "data": [],
-    "demo": [],
     "installable": True,
 }
