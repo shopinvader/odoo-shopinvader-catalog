@@ -1,1 +1,6 @@
 odoo-test-helper
+
+
+odoo-addon-base_url @ git+https://github.com/OCA/server-tools@refs/pull/3591/head#subdirectory=base_url
+
+odoo-addon-shopinvader_product_brand @ git+https://github.com/shopinvader/odoo-shopinvader-catalog@refs/pull/14/head#subdirectory=shopinvader_product_brand
