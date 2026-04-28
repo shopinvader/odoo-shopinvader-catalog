@@ -6,17 +6,15 @@
 {
     "name": "Shopinvader product url",
     "summary": "Generate url for product and category",
-    "version": "16.0.1.0.1",
+    "version": "18.0.1.0.0",
     "development_status": "Alpha",
     "category": "Shopinvader",
     "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
     "author": " Akretion, ACSONE SA/NV",
     "license": "AGPL-3",
     "depends": [
-        "shopinvader_base_url",
+        "base_url",
         "shopinvader_product",
     ],
-    "data": [],
-    "demo": [],
-    "installable": False,
+    "installable": True,
 }
