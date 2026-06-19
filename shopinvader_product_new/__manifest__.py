@@ -1,0 +1,19 @@
+# Copyright 2018 Akretion (http://www.akretion.com)
+# Benoît GUILLOT <benoit.guillot@akretion.com>
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+
+{
+    "name": "Shopinvader Product New",
+    "summary": "Shopinvader product new",
+    "version": "18.0.1.0.0",
+    "category": "e-commerce",
+    "website": "https://github.com/shopinvader/odoo-shopinvader-catalog",
+    "author": "Akretion",
+    "license": "AGPL-3",
+    "installable": True,
+    "depends": ["shopinvader_product", "sale_channel"],
+    "data": [
+        "views/product_template.xml",
+        "data/ir_cron.xml",
+    ],
+}
