@@ -45,7 +45,7 @@ class ProductProduct(models.Model):
         self.ensure_one()
         attributes = self.attribute_value_ids
         short_name = ", ".join(attributes.mapped("name"))
-        full_name = self.display_name
+        full_name = self.name
         if short_name:
             full_name += f" ({short_name})"
         return full_name, short_name
