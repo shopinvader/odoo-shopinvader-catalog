@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [shopinvader_product_hierarchical_category](shopinvader_product_hierarchical_category/) | 18.0.1.0.0 |  | Add the hierarchicalCategories field in the product index required for faceting
 [shopinvader_product_sale_packaging](shopinvader_product_sale_packaging/) | 18.0.1.0.0 |  | Shopinvader Product Sale Packaging
 [shopinvader_product_seo](shopinvader_product_seo/) | 18.0.1.0.0 |  | SEO fields for Shopinvader
+[shopinvader_product_url](shopinvader_product_url/) | 18.0.1.0.0 |  | Generate url for product and category
 
 
 Unported addons
@@ -37,7 +38,6 @@ addon | version | maintainers | summary
 [shopinvader_base_url](shopinvader_base_url/) | 16.0.1.0.3 (unported) |  | keep history of url for products & categories
 [shopinvader_product_brand](shopinvader_product_brand/) | 16.0.1.0.1 (unported) |  | Shopinvader product Brand
 [shopinvader_product_brand_tag](shopinvader_product_brand_tag/) | 16.0.1.0.1 (unported) |  | Index Product Brand Tags in Shopinvader
-[shopinvader_product_url](shopinvader_product_url/) | 16.0.1.0.1 (unported) |  | Generate url for product and category
 
 [//]: # (end addons)
 
