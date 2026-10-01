@@ -22,7 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [shopinvader_multi_category](shopinvader_multi_category/) | 18.0.1.0.0 |  | Shopinvader Many Categories
-[shopinvader_product](shopinvader_product/) | 18.0.1.0.0 |  | Adds shopinvader product fields and schemas
+[shopinvader_product](shopinvader_product/) | 18.0.1.1.0 |  | Adds shopinvader product fields and schemas
 [shopinvader_product_attribute_set](shopinvader_product_attribute_set/) | 18.0.1.0.0 |  | Expose all PIM' Attribute sets with Shopinvader
 [shopinvader_product_description](shopinvader_product_description/) | 18.0.1.0.0 |  | Description fields for Shopinvader
 [shopinvader_product_hierarchical_category](shopinvader_product_hierarchical_category/) | 18.0.1.0.0 |  | Add the hierarchicalCategories field in the product index required for faceting
